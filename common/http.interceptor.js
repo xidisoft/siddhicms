@@ -1,6 +1,6 @@
 const install = (Vue, vm) => {
 	Vue.prototype.$u.http.setConfig({
-		baseUrl: 'http://huaren.cn',
+		baseUrl: 'http://hrq.xidicom.cn',
 		originalData: true,
 	});
 	Vue.prototype.$u.http.interceptor.request = (config) => {
