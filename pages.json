@@ -1,0 +1,277 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		}
+	},
+
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "华人圈",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/create/index",
+			"style": {
+				"navigationBarTitleText": "选择板块",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/create/template",
+			"style": {
+				"navigationBarTitleText": "发布",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/detail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/group",
+			"style": {
+				"navigationBarTitleText": "分类信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/auth/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/auth/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/profile",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/content",
+			"style": {
+				"navigationBarTitleText": "我的发布",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/system/about",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/system/privacy",
+			"style": {
+				"navigationBarTitleText": "隐私协议",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/system/agreement",
+			"style": {
+				"navigationBarTitleText": "用户协议",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/test",
+			"style": {
+				"navigationBarTitleText": "测试",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/message/chat",
+			"style": {
+				"navigationBarTitleText": "聊天",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/message/index",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/merchant/index",
+			"style": {
+				"navigationBarTitleText": "本地商家",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/create/edit",
+			"style": {
+				"navigationBarTitleText": "编辑",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/merchant/create",
+			"style": {
+				"navigationBarTitleText": "商家入驻",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/shop",
+			"style": {
+				"navigationBarTitleText": "我的店铺",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/merchant/detail",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/merchant/group",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/merchant/more",
+			"style": {
+				"navigationBarTitleText": "商家分类",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/forum/index",
+			"style": {
+				"navigationBarTitleText": "分享",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/forum/detail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/forum/create",
+			"style": {
+				"navigationBarTitleText": "发布",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/create/choose",
+			"style": {
+				"navigationBarTitleText": "选择板块",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "头像裁剪",
+				"navigationBarBackgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/my/interact",
+			"style": {
+				"navigationBarTitleText": "评论/关注/粉丝",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "华人圈",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		
+		"h5": {
+			"titleNView": false
+		}
+		
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"fontSize": "12px",
+		"midButton": {
+			"iconPath": "static/icons/add-fill.png",
+			"width": "80px",
+			"iconWidth": "50px"
+		},
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icons/home.png",
+				"selectedIconPath": "static/icons/home-fill.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/forum/index",
+				"iconPath": "static/icons/eye.png",
+				"selectedIconPath": "static/icons/eye-fill.png",
+				"text": "广场"
+			},
+			{
+				"pagePath": "pages/message/index",
+				"iconPath": "static/icons/chat.png",
+				"selectedIconPath": "static/icons/chat-fill.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/icons/user.png",
+				"selectedIconPath": "static/icons/user-fill.png",
+				"text": "我的"
+			}
+		]
+	}
+}
